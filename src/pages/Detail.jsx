@@ -76,7 +76,7 @@ const Detail = (props) => {
             }).then((result) => {
             /* Read more about handling dismissals below */
             if (result.dismiss === Swal.DismissReason.timer) {
-                if(1){
+                if(chance){
                     let renamePokemon
                     Swal.fire({
                         title: `Gotcha!`,
